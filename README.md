@@ -1,6 +1,10 @@
 # **GOST** 👻
 GOST is a simple tool written in Go to create Github Gists fast, straight from your terminal.
-So far there is room for improvements, mainly for better error handling + maybe a few more CLI flags, but I am not planning in turning this into a big project.
+So far there is room for improvements, mainly for better error handling + maybe a few more CLI flags, but I am not planning in turning this into a big project. 
+
+## Usage: go run main.go [opt-flag] ...
+
+**opt-flag** is an optional flag that can be either *--pv* or *--pb* (private or public), and after it comes the list of files that should be published.
 
 Props to this website that made it easy to understand what is actually going on (and for the code): https://www.practical-go-lessons.com/chap-35-build-an-http-client
 
